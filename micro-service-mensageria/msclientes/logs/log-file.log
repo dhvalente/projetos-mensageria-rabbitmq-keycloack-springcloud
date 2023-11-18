@@ -1,0 +1,105 @@
+2023-11-18T15:45:14.532-03:00  INFO 16160 --- [restartedMain] i.g.msclientes.MsclientesApplication     : Starting MsclientesApplication using Java 17.0.4.1 with PID 16160 (C:\Users\diogo\Desktop\Development\REPOSITORIES\micro-service-mensageria\msclientes\target\classes started by diogo in C:\Users\diogo\Desktop\Development\REPOSITORIES\micro-service-mensageria\msclientes)
+2023-11-18T15:45:14.540-03:00  INFO 16160 --- [restartedMain] i.g.msclientes.MsclientesApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-11-18T15:45:14.607-03:00  INFO 16160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-18T15:45:14.608-03:00  INFO 16160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-18T15:45:15.654-03:00  INFO 16160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18T15:45:15.870-03:00  INFO 16160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 204 ms. Found 1 JPA repository interfaces.
+2023-11-18T15:45:16.201-03:00  INFO 16160 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f3d6cb2b-f564-3021-bfc4-30b206f57ec2
+2023-11-18T15:45:16.961-03:00  INFO 16160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-11-18T15:45:16.972-03:00  INFO 16160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-18T15:45:16.973-03:00  INFO 16160 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-11-18T15:45:17.050-03:00  INFO 16160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-18T15:45:17.051-03:00  INFO 16160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2442 ms
+2023-11-18T15:45:17.084-03:00  INFO 16160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-18T15:45:17.374-03:00  INFO 16160 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-18T15:45:17.376-03:00  INFO 16160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-18T15:45:17.392-03:00  INFO 16160 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-18T15:45:17.552-03:00  INFO 16160 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-18T15:45:17.647-03:00  INFO 16160 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-11-18T15:45:17.651-03:00  INFO 16160 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-18T15:45:17.872-03:00  INFO 16160 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-18T15:45:18.086-03:00  INFO 16160 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-18T15:45:18.651-03:00  INFO 16160 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-18T15:45:19.732-03:00  INFO 16160 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-18T15:45:19.814-03:00  INFO 16160 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18T15:45:20.396-03:00  WARN 16160 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18T15:45:20.851-03:00  INFO 16160 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-18T15:45:20.993-03:00  INFO 16160 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-11-18T15:45:21.167-03:00  WARN 16160 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-11-18T15:45:21.243-03:00  INFO 16160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50650 (http) with context path ''
+2023-11-18T15:45:21.245-03:00  INFO 16160 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 50650
+2023-11-18T15:45:21.251-03:00  INFO 16160 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-11-18T15:45:21.301-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-11-18T15:45:21.307-03:00  INFO 16160 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T15:45:21.339-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-11-18T15:45:21.339-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-11-18T15:45:21.339-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-11-18T15:45:21.339-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-11-18T15:45:21.340-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-11-18T15:45:21.340-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-11-18T15:45:21.340-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-11-18T15:45:21.790-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-11-18T15:45:21.793-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-11-18T15:45:21.797-03:00  INFO 16160 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-11-18T15:45:21.803-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1700333121802 with initial instances count: 0
+2023-11-18T15:45:21.808-03:00  INFO 16160 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCLIENTES with eureka with status UP
+2023-11-18T15:45:21.809-03:00  INFO 16160 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1700333121809, current=UP, previous=STARTING]
+2023-11-18T15:45:21.811-03:00  INFO 16160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:98a76238d0025a60eaa6de2e0d0fcd8f: registering service...
+2023-11-18T15:45:21.871-03:00  INFO 16160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:98a76238d0025a60eaa6de2e0d0fcd8f - registration status: 204
+2023-11-18T15:45:21.951-03:00  INFO 16160 --- [restartedMain] i.g.msclientes.MsclientesApplication     : Started MsclientesApplication in 8.305 seconds (process running for 9.751)
+2023-11-18T15:45:51.799-03:00  INFO 16160 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-11-18T15:45:51.799-03:00  INFO 16160 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-11-18T15:45:51.799-03:00  INFO 16160 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-11-18T15:45:51.799-03:00  INFO 16160 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-11-18T15:45:51.799-03:00  INFO 16160 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-11-18T15:45:51.799-03:00  INFO 16160 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-11-18T15:45:51.799-03:00  INFO 16160 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-11-18T15:45:51.812-03:00  INFO 16160 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-11-18T15:50:21.356-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T15:55:21.367-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:00:21.374-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:05:21.383-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:10:21.409-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:15:21.414-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:20:21.426-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:25:21.431-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:30:21.432-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:35:21.441-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:40:21.454-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:45:21.468-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:50:21.480-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T16:55:21.496-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:00:21.506-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:05:21.517-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:10:21.527-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:15:21.531-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:20:21.539-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:25:21.548-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:30:21.549-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:35:21.560-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:40:21.569-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:45:21.581-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:50:21.593-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T17:55:21.603-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:00:21.604-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:05:21.619-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:10:21.635-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:15:21.638-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:20:21.652-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:25:21.656-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:30:21.662-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:35:21.664-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:40:21.679-03:00  INFO 16160 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-18T18:44:53.122-03:00  INFO 16160 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCLIENTES with eureka with status DOWN
+2023-11-18T18:44:53.123-03:00  INFO 16160 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1700343893123, current=DOWN, previous=UP]
+2023-11-18T18:44:53.123-03:00  INFO 16160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:98a76238d0025a60eaa6de2e0d0fcd8f: registering service...
+2023-11-18T18:44:53.147-03:00  INFO 16160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:98a76238d0025a60eaa6de2e0d0fcd8f - registration status: 204
+2023-11-18T18:44:53.272-03:00  INFO 16160 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18T18:44:53.608-03:00  WARN 16160 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-11-18T18:44:53.609-03:00  INFO 16160 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-18T18:44:53.843-03:00  INFO 16160 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-18T18:44:53.845-03:00  INFO 16160 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-11-18T18:44:56.871-03:00  WARN 16160 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2023-11-18T18:44:56.873-03:00  INFO 16160 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-11-18T18:44:56.888-03:00  INFO 16160 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:98a76238d0025a60eaa6de2e0d0fcd8f - deregister  status: 200
+2023-11-18T18:44:56.911-03:00  INFO 16160 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
